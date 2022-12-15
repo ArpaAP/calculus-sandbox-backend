@@ -42,6 +42,3 @@ def get_definite_integral():
         return jsonify({
             'latex': latex(result).replace(' ', '')
         }) 
-
-if __name__ == '__main__':
-    app.run()
